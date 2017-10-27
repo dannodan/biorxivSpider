@@ -41,3 +41,5 @@ class BiorxivSpider(scrapy.Spider):
         # if next_page is not None:
         #     next_page = response.urljoin(next_page)
         #     yield scrapy.Request(next_page, callback=self.parse)
+
+        #tweets no se puede porque son generados dinamicamente por un widget y el scraping solo lee el html, no lee el contenido dinamico
